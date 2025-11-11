@@ -1,5 +1,5 @@
 #!/bin/bash
-# These steps will allow the setup of an on-demand SSH proxy
+# bash script that setup an on-demand SSH proxy
 # Three unit files will be created to serve this purpose:
 #   ssh-${DISPLAYED_HOSTNAME}-socks-proxy.socket - The listening socket providing activation
 #   ssh-${DISPLAYED_HOSTNAME}-socks-proxy.servic - A systemd proxy to pass the socket fde
